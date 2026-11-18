@@ -1,0 +1,161 @@
+{
+ "voc21": {
+  "bg_frac": 0.7331802130973488,
+  "n": 1449
+ },
+ "context60": {
+  "bg_frac": 0.12574220612388162,
+  "n": 5104
+ },
+ "coco_object": {
+  "bg_frac": 0.7048971365872848,
+  "n": 5000
+ },
+ "coco_stuff_hist_check": {
+  "n": 5000,
+  "pixels_total": 1368653453,
+  "unlabeled_255": 55992559
+ },
+ "ctx_variants": {
+  "ctx_bg30": {
+   "merged": [
+    47,
+    37,
+    56
+   ],
+   "bg_frac": 0.3487678347884559,
+   "merged_names": [
+    "sky",
+    "person",
+    "wall"
+   ]
+  },
+  "ctx_bg50": {
+   "merged": [
+    47,
+    37,
+    56,
+    29,
+    30,
+    53
+   ],
+   "bg_frac": 0.5295540296268324,
+   "merged_names": [
+    "sky",
+    "person",
+    "wall",
+    "grass",
+    "ground",
+    "tree"
+   ]
+  },
+  "ctx_bg70": {
+   "merged": [
+    47,
+    37,
+    56,
+    29,
+    30,
+    53,
+    11,
+    15,
+    26,
+    23,
+    57
+   ],
+   "bg_frac": 0.7073749047237373,
+   "merged_names": [
+    "sky",
+    "person",
+    "wall",
+    "grass",
+    "ground",
+    "tree",
+    "building",
+    "cat",
+    "floor",
+    "dog",
+    "water"
+   ]
+  },
+  "ctx_bg0": {
+   "merged": [],
+   "bg_frac": 0.12574220612388162,
+   "merged_names": []
+  }
+ },
+ "obj_variants": {
+  "obj_bg30": {
+   "merged": [
+    156,
+    168,
+    171,
+    123,
+    95,
+    139,
+    154
+   ],
+   "bg_frac": 0.3148891562399032,
+   "target": 0.3,
+   "merged_names": [
+    "sky-other",
+    "tree",
+    "wall-concrete",
+    "grass",
+    "building-other",
+    "pavement",
+    "sea"
+   ]
+  },
+  "obj_bg50": {
+   "merged": [
+    156,
+    168,
+    171,
+    123,
+    95,
+    139,
+    154,
+    148,
+    105,
+    144,
+    158,
+    172,
+    122,
+    131,
+    110,
+    164,
+    153,
+    175,
+    180,
+    101,
+    112
+   ],
+   "bg_frac": 0.5057103472634866,
+   "target": 0.5024485682936424,
+   "merged_names": [
+    "sky-other",
+    "tree",
+    "wall-concrete",
+    "grass",
+    "building-other",
+    "pavement",
+    "sea",
+    "road",
+    "clouds",
+    "playingfield",
+    "snow",
+    "wall-other",
+    "furniture-other",
+    "metal",
+    "dirt",
+    "table",
+    "sand",
+    "wall-tile",
+    "window-other",
+    "ceiling-other",
+    "fence"
+   ]
+  }
+ }
+}
