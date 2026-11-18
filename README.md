@@ -20,6 +20,7 @@ The paper audits how training-free open-vocabulary semantic segmentation (OVSS) 
 | `analysis/` | Image-level paired bootstrap and transcription checks |
 | `paper_scripts/` | Scripts that produce the paper's figures and tables from the result files |
 | `data/` | Result tables, decision files, collision manifests, derived-dataset merge lists and upstream commits (see `data/README.md`) |
+| `contracts/` | Pre-registered analysis contracts for all stages, with dated deviations (English translations) |
 
 ## Environment
 
@@ -39,7 +40,8 @@ python -m unittest test_ovss_collision_check.py
 
 ## Pre-registered contracts and per-image statistics
 
-The frozen analysis contracts (with dated deviations) and the per-image intersection/union statistics behind the bootstrap intervals will be released here before publication. Large archives will be attached as release assets.
+- **Contracts:** [`contracts/`](contracts/) holds the frozen analysis contracts for every stage (V2, V2-P2, V3, V4, V5 and S1–S5), translated into English, including all dated deviations. See [`contracts/README.md`](contracts/README.md).
+- **Per-image statistics and run outputs:** the per-stage run outputs are archived on Zenodo at https://doi.org/10.5281/zenodo.24338613 (CC BY 4.0). They include per-cell JSON files, run logs and the per-image intersection/union statistics behind the bootstrap intervals.
 
 ## License
 
