@@ -1,0 +1,184 @@
+{
+ "delta_trick_CC": -1.6985714285714286,
+ "decision": "PASS",
+ "delta_plain_CC": 15.336428571428572,
+ "per_dataset_trick": {
+  "voc21": -4.375714285714286,
+  "coco_object": 0.9785714285714286
+ },
+ "per_dataset_vs26": {
+  "voc21": -4.444285714285714,
+  "coco_object": 1.237142857142857
+ },
+ "unseen_trick": -0.45499999999999996,
+ "seen_trick": -3.356666666666667,
+ "mean_vs26": -1.6035714285714284,
+ "worst": {
+  "method": "SCLIP",
+  "dataset": "voc21",
+  "CC": 52.63,
+  "BGB": 60.76,
+  "SEL26": 57.61,
+  "P": 35.91,
+  "d_trick": -8.13,
+  "d_vs26": -4.98,
+  "d_plain": 16.72
+ },
+ "n_ge_trick": 7,
+ "rows": [
+  {
+   "method": "SCLIP",
+   "dataset": "voc21",
+   "CC": 52.63,
+   "BGB": 60.76,
+   "SEL26": 57.61,
+   "P": 35.91,
+   "d_trick": -8.13,
+   "d_vs26": -4.98,
+   "d_plain": 16.72
+  },
+  {
+   "method": "SCLIP",
+   "dataset": "coco_object",
+   "CC": 31.78,
+   "BGB": 33.07,
+   "SEL26": 33.16,
+   "P": 21.68,
+   "d_trick": -1.29,
+   "d_vs26": -1.38,
+   "d_plain": 10.1
+  },
+  {
+   "method": "ClearCLIP",
+   "dataset": "voc21",
+   "CC": 56.4,
+   "BGB": 51.8,
+   "SEL26": 58.43,
+   "P": 37.77,
+   "d_trick": 4.6,
+   "d_vs26": -2.03,
+   "d_plain": 18.63
+  },
+  {
+   "method": "ClearCLIP",
+   "dataset": "coco_object",
+   "CC": 35.01,
+   "BGB": 33.04,
+   "SEL26": 34.36,
+   "P": 23.32,
+   "d_trick": 1.97,
+   "d_vs26": 0.65,
+   "d_plain": 11.69
+  },
+  {
+   "method": "NACLIP",
+   "dataset": "voc21",
+   "CC": 50.37,
+   "BGB": 57.02,
+   "SEL26": 55.89,
+   "P": 36.79,
+   "d_trick": -6.65,
+   "d_vs26": -5.52,
+   "d_plain": 13.58
+  },
+  {
+   "method": "NACLIP",
+   "dataset": "coco_object",
+   "CC": 33.07,
+   "BGB": 32.34,
+   "SEL26": 32.97,
+   "P": 21.55,
+   "d_trick": 0.73,
+   "d_vs26": 0.1,
+   "d_plain": 11.52
+  },
+  {
+   "method": "ResCLIP",
+   "dataset": "voc21",
+   "CC": 53.63,
+   "BGB": 60.35,
+   "SEL26": 58.52,
+   "P": 36.66,
+   "d_trick": -6.72,
+   "d_vs26": -4.89,
+   "d_plain": 16.97
+  },
+  {
+   "method": "ResCLIP",
+   "dataset": "coco_object",
+   "CC": 36.34,
+   "BGB": 34.56,
+   "SEL26": 34.47,
+   "P": 22.0,
+   "d_trick": 1.78,
+   "d_vs26": 1.87,
+   "d_plain": 14.34
+  },
+  {
+   "method": "SC-CLIP",
+   "dataset": "voc21",
+   "CC": 57.21,
+   "BGB": 64.34,
+   "SEL26": 62.51,
+   "P": 42.07,
+   "d_trick": -7.13,
+   "d_vs26": -5.3,
+   "d_plain": 15.14
+  },
+  {
+   "method": "SC-CLIP",
+   "dataset": "coco_object",
+   "CC": 37.87,
+   "BGB": 36.75,
+   "SEL26": 35.52,
+   "P": 24.74,
+   "d_trick": 1.12,
+   "d_vs26": 2.35,
+   "d_plain": 13.13
+  },
+  {
+   "method": "ProxyCLIP",
+   "dataset": "voc21",
+   "CC": 59.51,
+   "BGB": 61.27,
+   "SEL26": 64.09,
+   "P": 40.57,
+   "d_trick": -1.76,
+   "d_vs26": -4.58,
+   "d_plain": 18.94
+  },
+  {
+   "method": "ProxyCLIP",
+   "dataset": "coco_object",
+   "CC": 39.1,
+   "BGB": 36.69,
+   "SEL26": 37.07,
+   "P": 23.89,
+   "d_trick": 2.41,
+   "d_vs26": 2.03,
+   "d_plain": 15.21
+  },
+  {
+   "method": "Trident",
+   "dataset": "voc21",
+   "CC": 62.24,
+   "BGB": 67.08,
+   "SEL26": 66.05,
+   "P": 40.02,
+   "d_trick": -4.84,
+   "d_vs26": -3.81,
+   "d_plain": 22.22
+  },
+  {
+   "method": "Trident",
+   "dataset": "coco_object",
+   "CC": 41.42,
+   "BGB": 41.29,
+   "SEL26": 38.38,
+   "P": 24.9,
+   "d_trick": 0.13,
+   "d_vs26": 3.04,
+   "d_plain": 16.52
+  }
+ ]
+}

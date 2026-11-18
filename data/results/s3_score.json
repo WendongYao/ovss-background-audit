@@ -1,0 +1,194 @@
+{
+ "voc21": {
+  "rows": {
+   "SCLIP": {
+    "P": 35.91,
+    "THR": 38.25,
+    "BGB": 60.76,
+    "NC": 60.76,
+    "O": 59.63,
+    "d_BG": 24.85,
+    "d_thr": 2.34,
+    "d_name": 22.51,
+    "d_voc": 0.0,
+    "zero": true
+   },
+   "ClearCLIP": {
+    "P": 37.77,
+    "THR": 51.8,
+    "BGB": 51.8,
+    "NC": 51.8,
+    "O": 51.8,
+    "d_BG": 14.03,
+    "d_thr": 14.03,
+    "d_name": 0.0,
+    "d_voc": 0.0,
+    "zero": true
+   },
+   "NACLIP": {
+    "P": 36.79,
+    "THR": 37.0,
+    "BGB": 57.02,
+    "NC": 57.02,
+    "O": 64.06,
+    "d_BG": 20.23,
+    "d_thr": 0.21,
+    "d_name": 20.02,
+    "d_voc": 0.0,
+    "zero": true
+   },
+   "ResCLIP": {
+    "P": 36.66,
+    "THR": 36.84,
+    "BGB": 60.35,
+    "NC": 60.35,
+    "O": 61.05,
+    "d_BG": 23.69,
+    "d_thr": 0.18,
+    "d_name": 23.51,
+    "d_voc": 0.0,
+    "zero": true
+   },
+   "SC-CLIP": {
+    "P": 42.07,
+    "THR": 43.99,
+    "BGB": 64.34,
+    "NC": 64.34,
+    "O": 64.61,
+    "d_BG": 22.27,
+    "d_thr": 1.92,
+    "d_name": 20.35,
+    "d_voc": 0.0,
+    "zero": true
+   },
+   "ProxyCLIP": {
+    "P": 40.57,
+    "THR": 48.8,
+    "BGB": 61.27,
+    "NC": 61.27,
+    "O": 61.24,
+    "d_BG": 20.7,
+    "d_thr": 8.23,
+    "d_name": 12.47,
+    "d_voc": 0.0,
+    "zero": true
+   },
+   "Trident": {
+    "P": 40.02,
+    "THR": 47.96,
+    "BGB": 67.08,
+    "NC": 67.08,
+    "O": 67.08,
+    "d_BG": 27.06,
+    "d_thr": 7.94,
+    "d_name": 19.12,
+    "d_voc": 0.0,
+    "zero": true
+   }
+  },
+  "mean_d_BG": 21.833,
+  "mean_d_thr": 4.979,
+  "mean_d_name": 16.854,
+  "share_thr": 0.228,
+  "reading": "mainly_names",
+  "mean_d_voc": 0.0,
+  "n_pos_voc_among_colliding": 0,
+  "collision_reading": "descriptive"
+ },
+ "coco_object": {
+  "rows": {
+   "SCLIP": {
+    "P": 21.68,
+    "THR": 29.72,
+    "BGB": 33.07,
+    "NC": 33.68,
+    "O": 33.52,
+    "d_BG": 11.39,
+    "d_thr": 8.04,
+    "d_name": 3.35,
+    "d_voc": 0.61,
+    "zero": false
+   },
+   "ClearCLIP": {
+    "P": 23.32,
+    "THR": 33.04,
+    "BGB": 33.04,
+    "NC": 33.04,
+    "O": 33.04,
+    "d_BG": 9.72,
+    "d_thr": 9.72,
+    "d_name": 0.0,
+    "d_voc": 0.0,
+    "zero": true
+   },
+   "NACLIP": {
+    "P": 21.55,
+    "THR": 27.72,
+    "BGB": 32.34,
+    "NC": 32.91,
+    "O": 36.2,
+    "d_BG": 10.79,
+    "d_thr": 6.17,
+    "d_name": 4.62,
+    "d_voc": 0.57,
+    "zero": false
+   },
+   "ResCLIP": {
+    "P": 22.0,
+    "THR": 28.1,
+    "BGB": 34.56,
+    "NC": 35.14,
+    "O": 34.95,
+    "d_BG": 12.56,
+    "d_thr": 6.1,
+    "d_name": 6.46,
+    "d_voc": 0.58,
+    "zero": false
+   },
+   "SC-CLIP": {
+    "P": 24.74,
+    "THR": 33.87,
+    "BGB": 36.75,
+    "NC": 37.36,
+    "O": 37.72,
+    "d_BG": 12.01,
+    "d_thr": 9.13,
+    "d_name": 2.88,
+    "d_voc": 0.61,
+    "zero": false
+   },
+   "ProxyCLIP": {
+    "P": 23.89,
+    "THR": 36.21,
+    "BGB": 36.69,
+    "NC": 37.4,
+    "O": 37.54,
+    "d_BG": 12.8,
+    "d_thr": 12.32,
+    "d_name": 0.48,
+    "d_voc": 0.71,
+    "zero": false
+   },
+   "Trident": {
+    "P": 24.9,
+    "THR": 39.08,
+    "BGB": 41.29,
+    "NC": 42.02,
+    "O": 41.07,
+    "d_BG": 16.39,
+    "d_thr": 14.18,
+    "d_name": 2.21,
+    "d_voc": 0.73,
+    "zero": false
+   }
+  },
+  "mean_d_BG": 12.237,
+  "mean_d_thr": 9.38,
+  "mean_d_name": 2.857,
+  "share_thr": 0.767,
+  "reading": "mainly_threshold",
+  "mean_d_voc": 0.544,
+  "n_pos_voc_among_colliding": 6,
+  "collision_reading": "measurable"
+ }
+}
