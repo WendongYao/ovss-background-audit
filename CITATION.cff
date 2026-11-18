@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below. Paper citation details will be added on publication."
+title: "ovss-background-audit: code and data for an audit of background handling in training-free open-vocabulary semantic segmentation"
+type: software
+authors:
+  - family-names: "Yao"
+    given-names: "Wendong"
+    affiliation: "University College Dublin"
+repository-code: "https://github.com/WendongYao/ovss-background-audit"
+license: MIT
+keywords:
+  - open-vocabulary segmentation
+  - semantic segmentation
+  - CLIP
+  - evaluation protocol
+  - reproducibility
