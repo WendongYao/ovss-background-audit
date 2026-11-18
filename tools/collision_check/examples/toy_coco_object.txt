@@ -1,0 +1,5 @@
+sky, wall, tree, bed, lamp
+person
+bed
+wall-concrete
+chair
