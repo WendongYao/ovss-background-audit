@@ -5,7 +5,13 @@ type: software
 authors:
   - family-names: "Yao"
     given-names: "Wendong"
-    affiliation: "University College Dublin"
+    affiliation: "ADAPT SFI Research Centre, School of Computer Science, University College Dublin"
+  - family-names: "Huang"
+    given-names: "Binhua"
+    affiliation: "ADAPT SFI Research Centre, School of Computer Science, University College Dublin"
+  - family-names: "Dev"
+    given-names: "Soumyabrata"
+    affiliation: "ADAPT SFI Research Centre, School of Computer Science, University College Dublin; School of Computer Science and Statistics, Trinity College Dublin"
 repository-code: "https://github.com/WendongYao/ovss-background-audit"
 license: MIT
 keywords:
