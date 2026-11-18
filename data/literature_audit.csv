@@ -1,0 +1,14 @@
+method,venue,thr,bgw_voc21,bgw_cocoobj,rename,post,res,other,doc,untuned,note
+MaskCLIP,ECCV 2022,none,n/a,n/a,minor,opt,yes,none,n/a,yes,official evaluation is background-free (VOC20/Context59/Stuff/ADE); KS/PD reported as separate rows
+GEM,CVPR 2024,0.85 (VOC),0,n/a,unverified,none,no,none,yes,no,no public evaluation code; threshold stated in paper
+CLIP-DINOiser,ECCV 2024,saliency (VOC/Object),1,1,minor,none,no,FOUND on/off,yes,yes,lightly trained module; results without background detection in Table 2(b)
+SCLIP,ECCV 2024,0.1/0.1/0.1,26,26,yes,none,no,logit scale; area thr (VOC),no,partial,PAMR reported as separate block only
+ClearCLIP,ECCV 2024,0.5/0.4/0.15,1,1,minor,none,no,none,partial,yes,states no class-name expansion; thresholds not stated
+ProxyCLIP,ECCV 2024,0.2/0.25/0.15,26,17,minor,none,yes,none,no,no,only resolution documented
+NACLIP,WACV 2025,0.1/0.1/0.1,26,26,yes,PAMR,yes,none,no,partial,repo default enables PAMR; VOC whole-image inference in repo vs. sliding window in paper
+SC-CLIP,IEEE TIP 2025,0.15/0.35/0.15,26,26,yes,none,no,logit scale; area thr (VOC),partial,no,paper states hyper-parameters are kept consistent across datasets; configs differ
+ResCLIP,CVPR 2025,0.1/0.1/0.1,26,26,yes,none,yes,AdaThr; RCS/SFR weights,no,no,per-dataset weights differ from the single optimum stated in the paper
+ITACLIP,CVPR-W 2025,0.1/0.1/0.1,44,26,yes,PAMR + closing,yes,logit scale; alpha; beta; area thr (VOC),partial,partial,morphological closing not described in paper
+Trident,ICCV 2025,0.2/0.25/0.15,26,17,minor,SAM refine,yes,coarse thr; cos factor,no,partial,refinement ablated; resolution documented
+CorrCLIP,ICCV 2025,0.2/0.25/0.15,26,16,yes,mask correction,yes,mask source,no,partial,MetaCLIP backbone; map correction ablated
+FreeCP,ICCV 2025,purification thr,26,26,yes,none,no,rp/ap thresholds,partial,partial,class-purification thresholds set per dataset (described qualitatively)
