@@ -1,0 +1,137 @@
+{
+ "method": "SCLIP",
+ "rule": "CONTRACT_S4_CN.md",
+ "Q1": {
+  "voc21": {
+   "n_images": 1449,
+   "n_eligible": 760,
+   "selected": [
+    {
+     "percentile": 10,
+     "q_value": 0.24,
+     "index": 758,
+     "value": 0.2401,
+     "bg_share": 0.6283,
+     "miou": {
+      "P": 2.56,
+      "THR": 3.97,
+      "BGB": 26.57,
+      "O": 22.29
+     }
+    },
+    {
+     "percentile": 50,
+     "q_value": 0.4884,
+     "index": 391,
+     "value": 0.489,
+     "bg_share": 0.7424,
+     "miou": {
+      "P": 5.0,
+      "THR": 20.84,
+      "BGB": 53.9,
+      "O": 51.96
+     }
+    },
+    {
+     "percentile": 90,
+     "q_value": 0.7842,
+     "index": 63,
+     "value": 0.7842,
+     "bg_share": 0.5989,
+     "miou": {
+      "P": 10.66,
+      "THR": 55.93,
+      "BGB": 89.07,
+      "O": 83.07
+     }
+    }
+   ]
+  },
+  "coco_object": {
+   "n_images": 5000,
+   "n_eligible": 2495,
+   "selected": [
+    {
+     "percentile": 10,
+     "q_value": 0.0613,
+     "index": 2832,
+     "value": 0.0613,
+     "bg_share": 0.4359,
+     "miou": {
+      "P": 9.37,
+      "THR": 13.16,
+      "BGB": 15.49,
+      "O": 20.83
+     }
+    },
+    {
+     "percentile": 50,
+     "q_value": 0.1689,
+     "index": 4844,
+     "value": 0.1689,
+     "bg_share": 0.336,
+     "miou": {
+      "P": 3.64,
+      "THR": 16.94,
+      "BGB": 20.54,
+      "O": 13.01
+     }
+    },
+    {
+     "percentile": 90,
+     "q_value": 0.4007,
+     "index": 1430,
+     "value": 0.4012,
+     "bg_share": 0.426,
+     "miou": {
+      "P": 8.92,
+      "THR": 25.08,
+      "BGB": 49.04,
+      "O": 44.38
+     }
+    }
+   ]
+  }
+ },
+ "Q2": {
+  "coco_object": {
+   "n_images": 5000,
+   "n_eligible": 137,
+   "selected": [
+    {
+     "percentile": 10,
+     "q_value": 0.2118,
+     "index": 3974,
+     "value": 0.2157,
+     "bed_share": 0.0518,
+     "bed_iou": {
+      "BGB": 0.0,
+      "NC": 21.57
+     }
+    },
+    {
+     "percentile": 50,
+     "q_value": 0.5583,
+     "index": 369,
+     "value": 0.5583,
+     "bed_share": 0.3272,
+     "bed_iou": {
+      "BGB": 0.0,
+      "NC": 55.83
+     }
+    },
+    {
+     "percentile": 90,
+     "q_value": 0.7849,
+     "index": 4575,
+     "value": 0.7834,
+     "bed_share": 0.7466,
+     "bed_iou": {
+      "BGB": 0.0,
+      "NC": 78.34
+     }
+    }
+   ]
+  }
+ }
+}
