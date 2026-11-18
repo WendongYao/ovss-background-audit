@@ -1,0 +1,142 @@
+{
+ "voc21_orig": {
+  "SCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/voc21_orig__NC__SCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/SCLIP/configs/cls_voc21.txt"
+  },
+  "ClearCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/voc21_orig__NC__ClearCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/ClearCLIP/configs/cls_voc21.txt"
+  },
+  "NACLIP": {
+   "n_bg_words": 26,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/voc21_orig__NC__NACLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/NACLIP/configs/cls_voc21.txt"
+  },
+  "ResCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/voc21_orig__NC__ResCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/ResCLIP/configs/cls_voc21.txt"
+  },
+  "SC-CLIP": {
+   "n_bg_words": 26,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/voc21_orig__NC__SC-CLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/SC-CLIP/configs/cls_voc21.txt"
+  },
+  "ProxyCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/voc21_orig__NC__ProxyCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/ProxyCLIP/configs/cls_voc21.txt"
+  },
+  "Trident": {
+   "n_bg_words": 26,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/voc21_orig__NC__Trident.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/Trident/configs/cls_voc21.txt"
+  }
+ },
+ "coco_object_orig": {
+  "SCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 1,
+   "removed": {
+    "bed": [
+     "bed"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s3/names/coco_object_orig__NC__SCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/SCLIP/configs/cls_coco_object.txt"
+  },
+  "ClearCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s3/names/coco_object_orig__NC__ClearCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/ClearCLIP/configs/cls_coco_object.txt"
+  },
+  "NACLIP": {
+   "n_bg_words": 26,
+   "n_removed": 1,
+   "removed": {
+    "bed": [
+     "bed"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s3/names/coco_object_orig__NC__NACLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/NACLIP/configs/cls_coco_object.txt"
+  },
+  "ResCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 1,
+   "removed": {
+    "bed": [
+     "bed"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s3/names/coco_object_orig__NC__ResCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/ResCLIP/configs/cls_coco_object.txt"
+  },
+  "SC-CLIP": {
+   "n_bg_words": 26,
+   "n_removed": 1,
+   "removed": {
+    "bed": [
+     "bed"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s3/names/coco_object_orig__NC__SC-CLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/SC-CLIP/configs/cls_coco_object.txt"
+  },
+  "ProxyCLIP": {
+   "n_bg_words": 17,
+   "n_removed": 1,
+   "removed": {
+    "bed": [
+     "bed"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s3/names/coco_object_orig__NC__ProxyCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/ProxyCLIP/configs/cls_coco_object.txt"
+  },
+  "Trident": {
+   "n_bg_words": 17,
+   "n_removed": 1,
+   "removed": {
+    "bed": [
+     "bed"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s3/names/coco_object_orig__NC__Trident.txt",
+   "bgb_path": "/root/autodl-tmp/p2/repos/Trident/configs/cls_coco_object.txt"
+  }
+ }
+}

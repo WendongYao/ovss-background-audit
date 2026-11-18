@@ -1,0 +1,754 @@
+{
+ "obj_bg30": {
+  "SCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 15,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-other",
+     "wall-panel",
+     "wall-stone",
+     "wall-tile",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "road": [
+     "road"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind",
+     "window-other"
+    ],
+    "ceiling": [
+     "ceiling-other",
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ],
+    "fence": [
+     "fence"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg30__NC__SCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg30__BGB__SCLIP.txt"
+  },
+  "ClearCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg30__NC__ClearCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg30__BGB__ClearCLIP.txt"
+  },
+  "NACLIP": {
+   "n_bg_words": 26,
+   "n_removed": 15,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-other",
+     "wall-panel",
+     "wall-stone",
+     "wall-tile",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "road": [
+     "road"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind",
+     "window-other"
+    ],
+    "ceiling": [
+     "ceiling-other",
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ],
+    "fence": [
+     "fence"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg30__NC__NACLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg30__BGB__NACLIP.txt"
+  },
+  "ResCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 15,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-other",
+     "wall-panel",
+     "wall-stone",
+     "wall-tile",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "road": [
+     "road"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind",
+     "window-other"
+    ],
+    "ceiling": [
+     "ceiling-other",
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ],
+    "fence": [
+     "fence"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg30__NC__ResCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg30__BGB__ResCLIP.txt"
+  },
+  "SC-CLIP": {
+   "n_bg_words": 26,
+   "n_removed": 15,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-other",
+     "wall-panel",
+     "wall-stone",
+     "wall-tile",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "road": [
+     "road"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind",
+     "window-other"
+    ],
+    "ceiling": [
+     "ceiling-other",
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ],
+    "fence": [
+     "fence"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg30__NC__SC-CLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg30__BGB__SC-CLIP.txt"
+  },
+  "ProxyCLIP": {
+   "n_bg_words": 17,
+   "n_removed": 9,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-other",
+     "wall-panel",
+     "wall-stone",
+     "wall-tile",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "road": [
+     "road"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg30__NC__ProxyCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg30__BGB__ProxyCLIP.txt"
+  },
+  "Trident": {
+   "n_bg_words": 17,
+   "n_removed": 9,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-other",
+     "wall-panel",
+     "wall-stone",
+     "wall-tile",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "road": [
+     "road"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg30__NC__Trident.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg30__BGB__Trident.txt"
+  }
+ },
+ "obj_bg50": {
+  "SCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 13,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-panel",
+     "wall-stone",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind"
+    ],
+    "ceiling": [
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg50__NC__SCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg50__BGB__SCLIP.txt"
+  },
+  "ClearCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg50__NC__ClearCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg50__BGB__ClearCLIP.txt"
+  },
+  "NACLIP": {
+   "n_bg_words": 26,
+   "n_removed": 13,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-panel",
+     "wall-stone",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind"
+    ],
+    "ceiling": [
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg50__NC__NACLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg50__BGB__NACLIP.txt"
+  },
+  "ResCLIP": {
+   "n_bg_words": 26,
+   "n_removed": 13,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-panel",
+     "wall-stone",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind"
+    ],
+    "ceiling": [
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg50__NC__ResCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg50__BGB__ResCLIP.txt"
+  },
+  "SC-CLIP": {
+   "n_bg_words": 26,
+   "n_removed": 13,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-panel",
+     "wall-stone",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "door": [
+     "door-stuff"
+    ],
+    "window": [
+     "window-blind"
+    ],
+    "ceiling": [
+     "ceiling-tile"
+    ],
+    "shelf": [
+     "shelf"
+    ],
+    "curtain": [
+     "curtain"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg50__NC__SC-CLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg50__BGB__SC-CLIP.txt"
+  },
+  "ProxyCLIP": {
+   "n_bg_words": 17,
+   "n_removed": 8,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-panel",
+     "wall-stone",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg50__NC__ProxyCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg50__BGB__ProxyCLIP.txt"
+  },
+  "Trident": {
+   "n_bg_words": 17,
+   "n_removed": 8,
+   "removed": {
+    "wall": [
+     "wall-brick",
+     "wall-panel",
+     "wall-stone",
+     "wall-wood"
+    ],
+    "wood": [
+     "floor-wood",
+     "wall-wood",
+     "wood"
+    ],
+    "river": [
+     "river"
+    ],
+    "mountain": [
+     "mountain"
+    ],
+    "desk": [
+     "desk-stuff"
+    ],
+    "bed": [
+     "bed"
+    ],
+    "floor": [
+     "floor-marble",
+     "floor-other",
+     "floor-stone",
+     "floor-tile",
+     "floor-wood"
+    ],
+    "hill": [
+     "hill"
+    ]
+   },
+   "zero": false,
+   "nc_path": "/root/autodl-tmp/s2/names/obj_bg50__NC__Trident.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/obj_bg50__BGB__Trident.txt"
+  }
+ },
+ "ctx_bg70": {
+  "SCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/ctx_bg70__NC__SCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/ctx_bg70__BGB__SCLIP.txt"
+  },
+  "ClearCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/ctx_bg70__NC__ClearCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/ctx_bg70__BGB__ClearCLIP.txt"
+  },
+  "NACLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/ctx_bg70__NC__NACLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/ctx_bg70__BGB__NACLIP.txt"
+  },
+  "ResCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/ctx_bg70__NC__ResCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/ctx_bg70__BGB__ResCLIP.txt"
+  },
+  "SC-CLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/ctx_bg70__NC__SC-CLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/ctx_bg70__BGB__SC-CLIP.txt"
+  },
+  "ProxyCLIP": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/ctx_bg70__NC__ProxyCLIP.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/ctx_bg70__BGB__ProxyCLIP.txt"
+  },
+  "Trident": {
+   "n_bg_words": 1,
+   "n_removed": 0,
+   "removed": {},
+   "zero": true,
+   "nc_path": "/root/autodl-tmp/s2/names/ctx_bg70__NC__Trident.txt",
+   "bgb_path": "/root/autodl-tmp/s1/names/ctx_bg70__BGB__Trident.txt"
+  }
+ }
+}
