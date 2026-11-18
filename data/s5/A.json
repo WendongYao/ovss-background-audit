@@ -1,0 +1,807 @@
+{
+ "K": [
+  "ship",
+  "tvmonitor",
+  "table",
+  "person",
+  "bottle",
+  "bird",
+  "train"
+ ],
+ "K_idx": [
+  4,
+  20,
+  11,
+  15,
+  5,
+  3,
+  19
+ ],
+ "A_c": {
+  "ship": [
+   "sailboat",
+   "tugboat"
+  ],
+  "tvmonitor": [
+   "laptop",
+   "tv_stand",
+   "stereo"
+  ],
+  "table": [
+   "napkin"
+  ],
+  "person": [
+   "collar"
+  ],
+  "bottle": [
+   "wine"
+  ],
+  "bird": [
+   "feather"
+  ],
+  "train": [
+   "engine"
+  ]
+ },
+ "A": [
+  "feather",
+  "sailboat",
+  "tugboat",
+  "wine",
+  "napkin",
+  "engine",
+  "laptop",
+  "collar",
+  "tv_stand",
+  "stereo"
+ ],
+ "gain_6method_mean_dev": {
+  "airport": {
+   "ship": 0.014,
+   "tvmonitor": 0.001,
+   "table": -0.027,
+   "person": 0.001,
+   "bottle": 0.002,
+   "bird": 0.0,
+   "train": 0.001
+  },
+  "sky": {
+   "ship": -0.106,
+   "tvmonitor": 0.019,
+   "table": -0.043,
+   "person": 0.067,
+   "bottle": 0.016,
+   "bird": -0.138,
+   "train": -0.041
+  },
+  "clouds": {
+   "ship": -0.051,
+   "tvmonitor": 0.011,
+   "table": -0.214,
+   "person": 0.051,
+   "bottle": 0.016,
+   "bird": -0.056,
+   "train": -0.095
+  },
+  "hangar": {
+   "ship": -0.0,
+   "tvmonitor": 0.002,
+   "table": -0.006,
+   "person": 0.0,
+   "bottle": 0.005,
+   "bird": 0.004,
+   "train": 0.019
+  },
+  "control tower": {
+   "ship": -0.006,
+   "tvmonitor": 0.04,
+   "table": -0.012,
+   "person": 0.002,
+   "bottle": -0.009,
+   "bird": -0.004,
+   "train": 0.002
+  },
+  "bicycle_rack": {
+   "ship": 0.004,
+   "tvmonitor": 0.0,
+   "table": -0.001,
+   "person": -0.024,
+   "bottle": 0.008,
+   "bird": -0.0,
+   "train": -0.0
+  },
+  "pedestrian": {
+   "ship": 0.001,
+   "tvmonitor": 0.003,
+   "table": -0.019,
+   "person": 0.333,
+   "bottle": -0.003,
+   "bird": 0.007,
+   "train": 0.003
+  },
+  "street": {
+   "ship": -0.015,
+   "tvmonitor": 0.002,
+   "table": -0.059,
+   "person": 0.073,
+   "bottle": -0.001,
+   "bird": 0.003,
+   "train": -0.084
+  },
+  "helmet": {
+   "ship": 0.007,
+   "tvmonitor": 0.021,
+   "table": -0.034,
+   "person": 0.29,
+   "bottle": 0.029,
+   "bird": 0.021,
+   "train": 0.017
+  },
+  "parking_lot": {
+   "ship": 0.01,
+   "tvmonitor": 0.003,
+   "table": -0.024,
+   "person": 0.036,
+   "bottle": 0.002,
+   "bird": 0.003,
+   "train": 0.001
+  },
+  "tree": {
+   "ship": -0.036,
+   "tvmonitor": 0.017,
+   "table": -0.031,
+   "person": 0.098,
+   "bottle": 0.083,
+   "bird": 0.045,
+   "train": -0.001
+  },
+  "birdhouse": {
+   "ship": -0.009,
+   "tvmonitor": 0.009,
+   "table": -0.061,
+   "person": 0.015,
+   "bottle": -0.043,
+   "bird": -0.1,
+   "train": 0.002
+  },
+  "feather": {
+   "ship": -0.002,
+   "tvmonitor": -0.0,
+   "table": -0.057,
+   "person": 0.157,
+   "bottle": 0.032,
+   "bird": 8.822,
+   "train": 0.007
+  },
+  "branch": {
+   "ship": -0.007,
+   "tvmonitor": 0.025,
+   "table": -0.137,
+   "person": 0.362,
+   "bottle": 0.041,
+   "bird": 0.284,
+   "train": -0.02
+  },
+  "harbor": {
+   "ship": 0.382,
+   "tvmonitor": 0.003,
+   "table": 0.001,
+   "person": 0.042,
+   "bottle": 0.004,
+   "bird": -0.008,
+   "train": -0.002
+  },
+  "dock": {
+   "ship": 0.34,
+   "tvmonitor": -0.005,
+   "table": -0.155,
+   "person": 0.038,
+   "bottle": 0.004,
+   "bird": 0.114,
+   "train": -0.004
+  },
+  "sailboat": {
+   "ship": 18.416,
+   "tvmonitor": -0.009,
+   "table": 0.257,
+   "person": 0.136,
+   "bottle": 0.101,
+   "bird": 0.115,
+   "train": 0.001
+  },
+  "tugboat": {
+   "ship": 2.767,
+   "tvmonitor": 0.008,
+   "table": 0.027,
+   "person": 0.038,
+   "bottle": 0.017,
+   "bird": 0.017,
+   "train": 0.363
+  },
+  "pier": {
+   "ship": 0.013,
+   "tvmonitor": 0.002,
+   "table": -0.038,
+   "person": 0.019,
+   "bottle": 0.007,
+   "bird": 0.004,
+   "train": -0.007
+  },
+  "ocean": {
+   "ship": -2.884,
+   "tvmonitor": 0.006,
+   "table": -0.193,
+   "person": 0.033,
+   "bottle": -0.02,
+   "bird": 0.006,
+   "train": 0.001
+  },
+  "horizon": {
+   "ship": -0.198,
+   "tvmonitor": 0.022,
+   "table": -0.111,
+   "person": 0.321,
+   "bottle": 0.038,
+   "bird": -0.048,
+   "train": 0.005
+  },
+  "bridge": {
+   "ship": -0.121,
+   "tvmonitor": 0.001,
+   "table": -0.05,
+   "person": 0.045,
+   "bottle": 0.006,
+   "bird": -0.003,
+   "train": -0.015
+  },
+  "port": {
+   "ship": 0.127,
+   "tvmonitor": 0.005,
+   "table": -0.031,
+   "person": 0.046,
+   "bottle": 0.013,
+   "bird": 0.005,
+   "train": 0.005
+  },
+  "cargo": {
+   "ship": 0.386,
+   "tvmonitor": -0.006,
+   "table": -0.167,
+   "person": 0.339,
+   "bottle": -0.053,
+   "bird": 0.028,
+   "train": 0.148
+  },
+  "fork": {
+   "ship": -0.009,
+   "tvmonitor": 0.026,
+   "table": 0.686,
+   "person": 0.028,
+   "bottle": 0.058,
+   "bird": 0.009,
+   "train": 0.004
+  },
+  "glass": {
+   "ship": 0.021,
+   "tvmonitor": 0.001,
+   "table": -0.012,
+   "person": 0.04,
+   "bottle": -1.057,
+   "bird": -0.008,
+   "train": 0.044
+  },
+  "wine": {
+   "ship": 0.012,
+   "tvmonitor": -0.033,
+   "table": 0.212,
+   "person": -0.325,
+   "bottle": 11.478,
+   "bird": 0.001,
+   "train": 0.005
+  },
+  "napkin": {
+   "ship": -0.015,
+   "tvmonitor": -0.008,
+   "table": 5.226,
+   "person": 0.164,
+   "bottle": -0.247,
+   "bird": 0.026,
+   "train": 0.004
+  },
+  "park": {
+   "ship": 0.003,
+   "tvmonitor": 0.002,
+   "table": -0.047,
+   "person": 0.045,
+   "bottle": 0.014,
+   "bird": 0.025,
+   "train": 0.002
+  },
+  "road": {
+   "ship": -0.13,
+   "tvmonitor": 0.018,
+   "table": -0.094,
+   "person": 0.11,
+   "bottle": 0.03,
+   "bird": 0.01,
+   "train": -0.207
+  },
+  "stop sign": {
+   "ship": 0.001,
+   "tvmonitor": 0.003,
+   "table": -0.003,
+   "person": 0.002,
+   "bottle": 0.011,
+   "bird": 0.003,
+   "train": 0.027
+  },
+  "bush": {
+   "ship": -0.14,
+   "tvmonitor": 0.013,
+   "table": 0.006,
+   "person": 0.078,
+   "bottle": 0.005,
+   "bird": -0.007,
+   "train": 0.004
+  },
+  "tire": {
+   "ship": -0.109,
+   "tvmonitor": -0.007,
+   "table": -0.02,
+   "person": 0.066,
+   "bottle": 0.081,
+   "bird": 0.021,
+   "train": 0.031
+  },
+  "wheel": {
+   "ship": -0.017,
+   "tvmonitor": -0.008,
+   "table": -0.054,
+   "person": 0.123,
+   "bottle": 0.058,
+   "bird": 0.029,
+   "train": 0.044
+  },
+  "engine": {
+   "ship": -0.003,
+   "tvmonitor": 0.067,
+   "table": -0.283,
+   "person": 0.051,
+   "bottle": 0.024,
+   "bird": 0.012,
+   "train": 1.235
+  },
+  "garage": {
+   "ship": -0.027,
+   "tvmonitor": 0.001,
+   "table": -0.178,
+   "person": 0.006,
+   "bottle": -0.066,
+   "bird": -0.004,
+   "train": 0.026
+  },
+  "seatbelt": {
+   "ship": -0.008,
+   "tvmonitor": -0.059,
+   "table": 0.008,
+   "person": 0.229,
+   "bottle": 0.007,
+   "bird": -0.001,
+   "train": 0.003
+  },
+  "traffic_light": {
+   "ship": 0.003,
+   "tvmonitor": 0.027,
+   "table": -0.005,
+   "person": 0.001,
+   "bottle": 0.006,
+   "bird": 0.012,
+   "train": 0.014
+  },
+  "stop_sign": {
+   "ship": -0.002,
+   "tvmonitor": 0.002,
+   "table": -0.017,
+   "person": 0.002,
+   "bottle": 0.017,
+   "bird": 0.001,
+   "train": 0.04
+  },
+  "mouse": {
+   "ship": 0.005,
+   "tvmonitor": 0.024,
+   "table": -0.102,
+   "person": 0.088,
+   "bottle": 0.007,
+   "bird": 0.065,
+   "train": 0.005
+  },
+  "laptop": {
+   "ship": 0.003,
+   "tvmonitor": 2.441,
+   "table": -0.297,
+   "person": -0.015,
+   "bottle": 0.01,
+   "bird": 0.003,
+   "train": 0.007
+  },
+  "book": {
+   "ship": -0.006,
+   "tvmonitor": 0.016,
+   "table": -0.068,
+   "person": 0.056,
+   "bottle": 0.043,
+   "bird": 0.007,
+   "train": 0.008
+  },
+  "window": {
+   "ship": -0.016,
+   "tvmonitor": 0.103,
+   "table": -0.139,
+   "person": 0.069,
+   "bottle": 0.033,
+   "bird": -0.01,
+   "train": 0.105
+  },
+  "squirrel": {
+   "ship": 0.001,
+   "tvmonitor": 0.001,
+   "table": 0.004,
+   "person": 0.007,
+   "bottle": 0.005,
+   "bird": 0.34,
+   "train": 0.001
+  },
+  "bookshelf": {
+   "ship": -0.002,
+   "tvmonitor": -0.064,
+   "table": -0.489,
+   "person": -0.009,
+   "bottle": 0.015,
+   "bird": -0.001,
+   "train": 0.0
+  },
+  "lamp": {
+   "ship": -0.005,
+   "tvmonitor": -0.116,
+   "table": -0.107,
+   "person": -0.008,
+   "bottle": -0.025,
+   "bird": 0.005,
+   "train": -0.001
+  },
+  "farm": {
+   "ship": -0.106,
+   "tvmonitor": 0.012,
+   "table": -0.289,
+   "person": 0.011,
+   "bottle": 0.022,
+   "bird": 0.011,
+   "train": 0.002
+  },
+  "field": {
+   "ship": -0.006,
+   "tvmonitor": 0.03,
+   "table": -0.054,
+   "person": 0.073,
+   "bottle": 0.055,
+   "bird": -0.023,
+   "train": -0.01
+  },
+  "hay": {
+   "ship": -0.14,
+   "tvmonitor": 0.044,
+   "table": -0.015,
+   "person": 0.092,
+   "bottle": 0.04,
+   "bird": -0.043,
+   "train": 0.003
+  },
+  "tractor": {
+   "ship": 0.007,
+   "tvmonitor": 0.003,
+   "table": -0.012,
+   "person": 0.052,
+   "bottle": 0.011,
+   "bird": 0.002,
+   "train": 0.52
+  },
+  "rug": {
+   "ship": -0.043,
+   "tvmonitor": -0.145,
+   "table": -0.694,
+   "person": -0.1,
+   "bottle": -0.045,
+   "bird": 0.004,
+   "train": 0.0
+  },
+  "door": {
+   "ship": -0.061,
+   "tvmonitor": 0.007,
+   "table": -0.455,
+   "person": -0.049,
+   "bottle": -0.033,
+   "bird": -0.011,
+   "train": 0.114
+  },
+  "leash": {
+   "ship": -0.008,
+   "tvmonitor": -0.018,
+   "table": -0.075,
+   "person": 0.568,
+   "bottle": 0.001,
+   "bird": 0.052,
+   "train": -0.009
+  },
+  "bone": {
+   "ship": -0.106,
+   "tvmonitor": 0.004,
+   "table": 0.039,
+   "person": 0.185,
+   "bottle": 0.015,
+   "bird": 0.078,
+   "train": 0.004
+  },
+  "collar": {
+   "ship": 0.0,
+   "tvmonitor": 0.003,
+   "table": -0.027,
+   "person": 1.463,
+   "bottle": 0.027,
+   "bird": 0.091,
+   "train": -0.321
+  },
+  "yard": {
+   "ship": -0.126,
+   "tvmonitor": 0.018,
+   "table": -0.11,
+   "person": 0.135,
+   "bottle": -0.048,
+   "bird": 0.021,
+   "train": -0.126
+  },
+  "saddle": {
+   "ship": 0.014,
+   "tvmonitor": 0.003,
+   "table": -0.294,
+   "person": 0.206,
+   "bottle": 0.029,
+   "bird": 0.211,
+   "train": 0.013
+  },
+  "reins": {
+   "ship": -0.018,
+   "tvmonitor": 0.011,
+   "table": -0.093,
+   "person": 0.746,
+   "bottle": -0.009,
+   "bird": 0.16,
+   "train": 0.048
+  },
+  "stable": {
+   "ship": 0.015,
+   "tvmonitor": 0.018,
+   "table": -0.422,
+   "person": 0.145,
+   "bottle": 0.036,
+   "bird": 0.047,
+   "train": 0.051
+  },
+  "rider": {
+   "ship": -0.005,
+   "tvmonitor": 0.002,
+   "table": -0.02,
+   "person": 0.192,
+   "bottle": 0.064,
+   "bird": 0.03,
+   "train": 0.01
+  },
+  "motorcycle jacket": {
+   "ship": -0.008,
+   "tvmonitor": 0.001,
+   "table": 0.003,
+   "person": 0.861,
+   "bottle": 0.013,
+   "bird": 0.001,
+   "train": 0.016
+  },
+  "traffic light": {
+   "ship": 0.002,
+   "tvmonitor": 0.02,
+   "table": -0.004,
+   "person": 0.003,
+   "bottle": 0.012,
+   "bird": 0.018,
+   "train": 0.009
+  },
+  "parking lot": {
+   "ship": 0.027,
+   "tvmonitor": 0.002,
+   "table": -0.056,
+   "person": 0.033,
+   "bottle": 0.009,
+   "bird": 0.006,
+   "train": 0.004
+  },
+  "building": {
+   "ship": -0.023,
+   "tvmonitor": 0.007,
+   "table": -0.084,
+   "person": 0.051,
+   "bottle": -0.008,
+   "bird": -0.007,
+   "train": 0.004
+  },
+  "sidewalk": {
+   "ship": -0.01,
+   "tvmonitor": -0.003,
+   "table": -0.134,
+   "person": 0.232,
+   "bottle": 0.006,
+   "bird": -0.037,
+   "train": -0.207
+  },
+  "bench": {
+   "ship": 0.01,
+   "tvmonitor": -0.103,
+   "table": 0.007,
+   "person": 0.064,
+   "bottle": -0.018,
+   "bird": 0.023,
+   "train": 0.004
+  },
+  "sunlight": {
+   "ship": -0.005,
+   "tvmonitor": 0.007,
+   "table": -0.059,
+   "person": 0.013,
+   "bottle": 0.048,
+   "bird": 0.003,
+   "train": 0.0
+  },
+  "fence": {
+   "ship": -0.019,
+   "tvmonitor": 0.003,
+   "table": 0.04,
+   "person": 0.022,
+   "bottle": 0.011,
+   "bird": -0.112,
+   "train": -0.013
+  },
+  "pasture": {
+   "ship": -0.108,
+   "tvmonitor": 0.025,
+   "table": 0.032,
+   "person": 0.035,
+   "bottle": 0.056,
+   "bird": 0.025,
+   "train": 0.005
+  },
+  "barn": {
+   "ship": 0.002,
+   "tvmonitor": 0.005,
+   "table": -0.077,
+   "person": -0.001,
+   "bottle": -0.001,
+   "bird": 0.003,
+   "train": 0.013
+  },
+  "windmill": {
+   "ship": 0.004,
+   "tvmonitor": 0.004,
+   "table": -0.011,
+   "person": 0.014,
+   "bottle": 0.016,
+   "bird": 0.009,
+   "train": 0.002
+  },
+  "tv_stand": {
+   "ship": -0.001,
+   "tvmonitor": 6.886,
+   "table": -0.263,
+   "person": -0.116,
+   "bottle": -0.008,
+   "bird": -0.001,
+   "train": 0.001
+  },
+  "station": {
+   "ship": 0.008,
+   "tvmonitor": 0.027,
+   "table": -0.051,
+   "person": 0.005,
+   "bottle": 0.011,
+   "bird": 0.001,
+   "train": -0.461
+  },
+  "platform": {
+   "ship": 0.003,
+   "tvmonitor": 0.013,
+   "table": -0.354,
+   "person": 0.027,
+   "bottle": 0.004,
+   "bird": 0.002,
+   "train": -1.647
+  },
+  "track": {
+   "ship": -0.0,
+   "tvmonitor": 0.019,
+   "table": -0.012,
+   "person": 0.027,
+   "bottle": 0.005,
+   "bird": 0.002,
+   "train": -1.186
+  },
+  "conductor": {
+   "ship": 0.003,
+   "tvmonitor": 0.021,
+   "table": -0.016,
+   "person": 0.139,
+   "bottle": 0.0,
+   "bird": 0.001,
+   "train": -0.002
+  },
+  "luggage": {
+   "ship": 0.002,
+   "tvmonitor": 0.026,
+   "table": -0.028,
+   "person": 0.025,
+   "bottle": -0.005,
+   "bird": 0.003,
+   "train": 0.002
+  },
+  "ticket": {
+   "ship": -0.01,
+   "tvmonitor": 0.019,
+   "table": -0.072,
+   "person": 0.11,
+   "bottle": 0.087,
+   "bird": 0.007,
+   "train": 0.034
+  },
+  "signal": {
+   "ship": -0.027,
+   "tvmonitor": 0.329,
+   "table": -0.067,
+   "person": 0.021,
+   "bottle": 0.047,
+   "bird": 0.003,
+   "train": -0.042
+  },
+  "carriage": {
+   "ship": -0.048,
+   "tvmonitor": -0.01,
+   "table": -0.105,
+   "person": 0.011,
+   "bottle": 0.015,
+   "bird": 0.031,
+   "train": 0.39
+  },
+  "remote": {
+   "ship": 0.002,
+   "tvmonitor": 0.518,
+   "table": -0.147,
+   "person": 0.056,
+   "bottle": -0.011,
+   "bird": 0.002,
+   "train": 0.007
+  },
+  "stereo": {
+   "ship": 0.003,
+   "tvmonitor": 1.036,
+   "table": -0.179,
+   "person": 0.041,
+   "bottle": 0.059,
+   "bird": 0.001,
+   "train": 0.028
+  },
+  "curtain": {
+   "ship": -0.017,
+   "tvmonitor": 0.013,
+   "table": -0.048,
+   "person": 0.102,
+   "bottle": 0.066,
+   "bird": 0.005,
+   "train": 0.015
+  }
+ }
+}

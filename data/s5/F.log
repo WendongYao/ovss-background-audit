@@ -1,0 +1,13 @@
+mIoU SEL [57.61, 58.43, 55.89, 58.52, 62.51, 64.09, 66.05]
+mIoU CC  [52.63, 56.4, 50.37, 53.63, 57.21, 59.51, 62.24]
+mIoU CC-A [55.55, 58.99, 53.69, 57.59, 61.16, 63.33, 66.18]
+ship D 29.97 R 23.48
+tvmonitor D 13.7 R 14.83
+table D 12.69 R 4.55
+person D 12.21 R 2.77
+bottle D 10.89 R 12.57
+bird D 10.36 R 7.75
+train D 7.89 R 2.29
+F 0.698 sumR 68.23 sumD 97.7
+others mean change 0.38 min -0.07 sofa max 1.22 aeroplane
+7-mean mIoU SEL CC CC-A 60.44 56.0 59.5

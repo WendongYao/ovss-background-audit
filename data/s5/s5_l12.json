@@ -1,0 +1,5051 @@
+{
+ "L1": [
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 154,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4463318,
+   "pred_px_O": null,
+   "pred_px_NC": 4916191,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-other",
+   "class_idx": 155,
+   "class_line": [
+    "wall-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1431443,
+   "pred_px_O": null,
+   "pred_px_NC": 3123852,
+   "gt_px": 21749648
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 156,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 13,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 157,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2408125,
+   "pred_px_O": null,
+   "pred_px_NC": 2705596,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-tile",
+   "class_idx": 158,
+   "class_line": [
+    "wall-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1462565,
+   "pred_px_O": null,
+   "pred_px_NC": 1813898,
+   "gt_px": 11991732
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2338166,
+   "pred_px_O": null,
+   "pred_px_NC": 2935227,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 9500369,
+   "pred_px_O": null,
+   "pred_px_NC": 10897976,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2338166,
+   "pred_px_O": null,
+   "pred_px_NC": 2935227,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 164,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4922718,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "road",
+   "query": "road",
+   "class_idx": 135,
+   "class_line": [
+    "road"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 14391336,
+   "gt_px": 29019688
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 134,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7757796,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 122,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1952247,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 98,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 72313,
+   "pred_px_O": null,
+   "pred_px_NC": 510800,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 8724378,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 100,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 283535,
+   "pred_px_O": null,
+   "pred_px_NC": 1301461,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 162,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 776986,
+   "pred_px_O": null,
+   "pred_px_NC": 978535,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "window",
+   "query": "window-other",
+   "class_idx": 163,
+   "class_line": [
+    "window-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1532784,
+   "pred_px_O": null,
+   "pred_px_NC": 2349527,
+   "gt_px": 11909309
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-other",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2298123,
+   "pred_px_O": null,
+   "pred_px_NC": 3372270,
+   "gt_px": 11875486
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 91,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 156403,
+   "pred_px_O": null,
+   "pred_px_NC": 235342,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 141,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 18340,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 97,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2356533,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 102,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3000308,
+   "pred_px_O": null,
+   "pred_px_NC": 3285260,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 103,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1852130,
+   "pred_px_O": null,
+   "pred_px_NC": 3106168,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 104,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3293389,
+   "pred_px_O": null,
+   "pred_px_NC": 4045461,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 105,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1686409,
+   "pred_px_O": null,
+   "pred_px_NC": 1929440,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 9500369,
+   "pred_px_O": null,
+   "pred_px_NC": 10897976,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 114,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1171522,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "bg_word": "fence",
+   "query": "fence",
+   "class_idx": 101,
+   "class_line": [
+    "fence"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2145136,
+   "gt_px": 11487250
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 154,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4850934,
+   "pred_px_O": null,
+   "pred_px_NC": 5304179,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-other",
+   "class_idx": 155,
+   "class_line": [
+    "wall-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4119430,
+   "pred_px_O": null,
+   "pred_px_NC": 8737407,
+   "gt_px": 21749648
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 156,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1876,
+   "pred_px_O": null,
+   "pred_px_NC": 4828,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 157,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 6635371,
+   "pred_px_O": null,
+   "pred_px_NC": 7320575,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-tile",
+   "class_idx": 158,
+   "class_line": [
+    "wall-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3717357,
+   "pred_px_O": null,
+   "pred_px_NC": 4238271,
+   "gt_px": 11991732
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5169735,
+   "pred_px_O": null,
+   "pred_px_NC": 6174398,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 10610830,
+   "pred_px_O": null,
+   "pred_px_NC": 11687321,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5169735,
+   "pred_px_O": null,
+   "pred_px_NC": 6174398,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 164,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5848420,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "road",
+   "query": "road",
+   "class_idx": 135,
+   "class_line": [
+    "road"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 18904412,
+   "gt_px": 29019688
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 134,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7209107,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 122,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2968295,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 98,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 53008,
+   "pred_px_O": null,
+   "pred_px_NC": 810279,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 6299978,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 100,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 62216,
+   "pred_px_O": null,
+   "pred_px_NC": 2722086,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 162,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 721996,
+   "pred_px_O": null,
+   "pred_px_NC": 916198,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "window",
+   "query": "window-other",
+   "class_idx": 163,
+   "class_line": [
+    "window-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2757704,
+   "pred_px_O": null,
+   "pred_px_NC": 4301422,
+   "gt_px": 11909309
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-other",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2038031,
+   "pred_px_O": null,
+   "pred_px_NC": 3145610,
+   "gt_px": 11875486
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 91,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 48653,
+   "pred_px_O": null,
+   "pred_px_NC": 104119,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 141,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 54030,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 97,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3239442,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 102,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1316915,
+   "pred_px_O": null,
+   "pred_px_NC": 1412445,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 103,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2802890,
+   "pred_px_O": null,
+   "pred_px_NC": 4654433,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 104,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 7976773,
+   "pred_px_O": null,
+   "pred_px_NC": 9463073,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 105,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3023867,
+   "pred_px_O": null,
+   "pred_px_NC": 3270357,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 10610830,
+   "pred_px_O": null,
+   "pred_px_NC": 11687321,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 114,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3843132,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "bg_word": "fence",
+   "query": "fence",
+   "class_idx": 101,
+   "class_line": [
+    "fence"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5665133,
+   "gt_px": 11487250
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 154,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 6712359,
+   "pred_px_O": null,
+   "pred_px_NC": 7375146,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-other",
+   "class_idx": 155,
+   "class_line": [
+    "wall-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3588104,
+   "pred_px_O": null,
+   "pred_px_NC": 8470144,
+   "gt_px": 21749648
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 156,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1228,
+   "pred_px_O": null,
+   "pred_px_NC": 6825,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 157,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 7745445,
+   "pred_px_O": null,
+   "pred_px_NC": 8518573,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-tile",
+   "class_idx": 158,
+   "class_line": [
+    "wall-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5522042,
+   "pred_px_O": null,
+   "pred_px_NC": 6001774,
+   "gt_px": 11991732
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5947145,
+   "pred_px_O": null,
+   "pred_px_NC": 7101726,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 12463239,
+   "pred_px_O": null,
+   "pred_px_NC": 13657431,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5947145,
+   "pred_px_O": null,
+   "pred_px_NC": 7101726,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 164,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5081649,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "road",
+   "query": "road",
+   "class_idx": 135,
+   "class_line": [
+    "road"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 22231312,
+   "gt_px": 29019688
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 134,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 9638499,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 122,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4018975,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 98,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 90491,
+   "pred_px_O": null,
+   "pred_px_NC": 1667161,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7627550,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 100,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 112064,
+   "pred_px_O": null,
+   "pred_px_NC": 3879053,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 162,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 929499,
+   "pred_px_O": null,
+   "pred_px_NC": 1175335,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "window",
+   "query": "window-other",
+   "class_idx": 163,
+   "class_line": [
+    "window-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3350520,
+   "pred_px_O": null,
+   "pred_px_NC": 5236171,
+   "gt_px": 11909309
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-other",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2902604,
+   "pred_px_O": null,
+   "pred_px_NC": 4325376,
+   "gt_px": 11875486
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 91,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 120368,
+   "pred_px_O": null,
+   "pred_px_NC": 225151,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 141,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 132549,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 97,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4108531,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 102,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1644553,
+   "pred_px_O": null,
+   "pred_px_NC": 1756600,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 103,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2436783,
+   "pred_px_O": null,
+   "pred_px_NC": 4606355,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 104,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 9325320,
+   "pred_px_O": null,
+   "pred_px_NC": 10925683,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 105,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4080265,
+   "pred_px_O": null,
+   "pred_px_NC": 4376201,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 12463239,
+   "pred_px_O": null,
+   "pred_px_NC": 13657431,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 114,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4760078,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "bg_word": "fence",
+   "query": "fence",
+   "class_idx": 101,
+   "class_line": [
+    "fence"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7332115,
+   "gt_px": 11487250
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 154,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5321820,
+   "pred_px_O": null,
+   "pred_px_NC": 5995231,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-other",
+   "class_idx": 155,
+   "class_line": [
+    "wall-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 11390,
+   "pred_px_O": null,
+   "pred_px_NC": 1675812,
+   "gt_px": 21749648
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 156,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 0,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 157,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4036116,
+   "pred_px_O": null,
+   "pred_px_NC": 4643057,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-tile",
+   "class_idx": 158,
+   "class_line": [
+    "wall-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2677380,
+   "pred_px_O": null,
+   "pred_px_NC": 3160355,
+   "gt_px": 11991732
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3789782,
+   "pred_px_O": null,
+   "pred_px_NC": 5287491,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 7890587,
+   "pred_px_O": null,
+   "pred_px_NC": 9522446,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3789782,
+   "pred_px_O": null,
+   "pred_px_NC": 5287491,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 164,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 817129,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "road",
+   "query": "road",
+   "class_idx": 135,
+   "class_line": [
+    "road"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 16282970,
+   "gt_px": 29019688
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 134,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5827432,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 122,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2799028,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 98,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 154525,
+   "pred_px_O": null,
+   "pred_px_NC": 1208338,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4750428,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 100,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 16500,
+   "pred_px_O": null,
+   "pred_px_NC": 1326000,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 162,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 784873,
+   "pred_px_O": null,
+   "pred_px_NC": 1164748,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "window",
+   "query": "window-other",
+   "class_idx": 163,
+   "class_line": [
+    "window-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 869737,
+   "pred_px_O": null,
+   "pred_px_NC": 3065518,
+   "gt_px": 11909309
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-other",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 820173,
+   "pred_px_O": null,
+   "pred_px_NC": 2336156,
+   "gt_px": 11875486
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 91,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2239,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 141,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 58567,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 97,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3468703,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 102,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1306809,
+   "pred_px_O": null,
+   "pred_px_NC": 1471153,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 103,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 84442,
+   "pred_px_O": null,
+   "pred_px_NC": 528852,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 104,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2863436,
+   "pred_px_O": null,
+   "pred_px_NC": 4087928,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 105,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1842989,
+   "pred_px_O": null,
+   "pred_px_NC": 2401944,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 7890587,
+   "pred_px_O": null,
+   "pred_px_NC": 9522446,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 114,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3517687,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "bg_word": "fence",
+   "query": "fence",
+   "class_idx": 101,
+   "class_line": [
+    "fence"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4807456,
+   "gt_px": 11487250
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 154,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2421385,
+   "pred_px_O": null,
+   "pred_px_NC": 2678387,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-other",
+   "class_idx": 155,
+   "class_line": [
+    "wall-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 134990,
+   "gt_px": 21749648
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 156,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 0,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 157,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2234679,
+   "pred_px_O": null,
+   "pred_px_NC": 2704925,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-tile",
+   "class_idx": 158,
+   "class_line": [
+    "wall-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 280739,
+   "pred_px_O": null,
+   "pred_px_NC": 447655,
+   "gt_px": 11991732
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 814387,
+   "pred_px_O": null,
+   "pred_px_NC": 1403640,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3076896,
+   "pred_px_O": null,
+   "pred_px_NC": 4099984,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 814387,
+   "pred_px_O": null,
+   "pred_px_NC": 1403640,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 164,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1454716,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "road",
+   "query": "road",
+   "class_idx": 135,
+   "class_line": [
+    "road"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 9837453,
+   "gt_px": 29019688
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 134,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7782367,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 122,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1706040,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 98,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1333,
+   "pred_px_O": null,
+   "pred_px_NC": 24546,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5126378,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 102,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 405574,
+   "pred_px_O": null,
+   "pred_px_NC": 458266,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 103,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 123650,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 104,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 670027,
+   "pred_px_O": null,
+   "pred_px_NC": 967173,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 105,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 300627,
+   "pred_px_O": null,
+   "pred_px_NC": 520380,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3076896,
+   "pred_px_O": null,
+   "pred_px_NC": 4099984,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 114,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 960760,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 154,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2818585,
+   "pred_px_O": null,
+   "pred_px_NC": 3237612,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-other",
+   "class_idx": 155,
+   "class_line": [
+    "wall-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 340686,
+   "gt_px": 21749648
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 156,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 0,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 157,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2574027,
+   "pred_px_O": null,
+   "pred_px_NC": 2990312,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-tile",
+   "class_idx": 158,
+   "class_line": [
+    "wall-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 491431,
+   "pred_px_O": null,
+   "pred_px_NC": 788963,
+   "gt_px": 11991732
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 894680,
+   "pred_px_O": null,
+   "pred_px_NC": 1673168,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3791740,
+   "pred_px_O": null,
+   "pred_px_NC": 4909151,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 159,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 894680,
+   "pred_px_O": null,
+   "pred_px_NC": 1673168,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 164,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1758486,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "road",
+   "query": "road",
+   "class_idx": 135,
+   "class_line": [
+    "road"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 14659145,
+   "gt_px": 29019688
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 134,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 8586887,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 122,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2419734,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 98,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2340,
+   "pred_px_O": null,
+   "pred_px_NC": 67639,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 6626653,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 102,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 552291,
+   "pred_px_O": null,
+   "pred_px_NC": 596942,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 103,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 92070,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 104,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 965872,
+   "pred_px_O": null,
+   "pred_px_NC": 1576124,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 105,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 534020,
+   "pred_px_O": null,
+   "pred_px_NC": 874328,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 106,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3791740,
+   "pred_px_O": null,
+   "pred_px_NC": 4909151,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 114,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1220329,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 143,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5226399,
+   "pred_px_O": null,
+   "pred_px_NC": 5981164,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 144,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3,
+   "pred_px_O": null,
+   "pred_px_NC": 2770,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 145,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2819735,
+   "pred_px_O": null,
+   "pred_px_NC": 3322785,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2721551,
+   "pred_px_O": null,
+   "pred_px_NC": 3474136,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 10367544,
+   "pred_px_O": null,
+   "pred_px_NC": 11847771,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2721551,
+   "pred_px_O": null,
+   "pred_px_NC": 3474136,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 150,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5642936,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 127,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7977451,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 116,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2469084,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 96,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 104490,
+   "pred_px_O": null,
+   "pred_px_NC": 714202,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 9159894,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 97,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 360037,
+   "pred_px_O": null,
+   "pred_px_NC": 1661222,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 149,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 962979,
+   "pred_px_O": null,
+   "pred_px_NC": 1696890,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 310309,
+   "pred_px_O": null,
+   "pred_px_NC": 790241,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 132,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 28420,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 95,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2702248,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 98,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3309243,
+   "pred_px_O": null,
+   "pred_px_NC": 3618454,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 99,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2611961,
+   "pred_px_O": null,
+   "pred_px_NC": 4187091,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 100,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3999201,
+   "pred_px_O": null,
+   "pred_px_NC": 4705926,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 101,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2177804,
+   "pred_px_O": null,
+   "pred_px_NC": 2534104,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 10367544,
+   "pred_px_O": null,
+   "pred_px_NC": 11847771,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 109,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1462753,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 143,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5835143,
+   "pred_px_O": null,
+   "pred_px_NC": 6946461,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 144,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5605,
+   "pred_px_O": null,
+   "pred_px_NC": 102678,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 145,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 7645737,
+   "pred_px_O": null,
+   "pred_px_NC": 9269766,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5775399,
+   "pred_px_O": null,
+   "pred_px_NC": 6946924,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 11347254,
+   "pred_px_O": null,
+   "pred_px_NC": 12454545,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 5775399,
+   "pred_px_O": null,
+   "pred_px_NC": 6946924,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 150,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 6371588,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 127,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7324138,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 116,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3620102,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 96,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 66886,
+   "pred_px_O": null,
+   "pred_px_NC": 1034480,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 6578390,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 97,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 86690,
+   "pred_px_O": null,
+   "pred_px_NC": 3509706,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 149,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 901134,
+   "pred_px_O": null,
+   "pred_px_NC": 2190160,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 171112,
+   "pred_px_O": null,
+   "pred_px_NC": 558501,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 132,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 76596,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 95,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3702266,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 98,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1447893,
+   "pred_px_O": null,
+   "pred_px_NC": 1561513,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 99,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3714423,
+   "pred_px_O": null,
+   "pred_px_NC": 5990946,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 100,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 9499107,
+   "pred_px_O": null,
+   "pred_px_NC": 10899766,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 101,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4241575,
+   "pred_px_O": null,
+   "pred_px_NC": 4728252,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 11347254,
+   "pred_px_O": null,
+   "pred_px_NC": 12454545,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 109,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4530669,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 143,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 8044586,
+   "pred_px_O": null,
+   "pred_px_NC": 9558395,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 144,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4750,
+   "pred_px_O": null,
+   "pred_px_NC": 121063,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 145,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 8858459,
+   "pred_px_O": null,
+   "pred_px_NC": 10632180,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 6631759,
+   "pred_px_O": null,
+   "pred_px_NC": 8100782,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 13279177,
+   "pred_px_O": null,
+   "pred_px_NC": 14486244,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 6631759,
+   "pred_px_O": null,
+   "pred_px_NC": 8100782,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 150,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5486868,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 127,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 9743906,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 116,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5048995,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 96,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 111941,
+   "pred_px_O": null,
+   "pred_px_NC": 2041469,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7936489,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 97,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 154009,
+   "pred_px_O": null,
+   "pred_px_NC": 4996565,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 149,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1148832,
+   "pred_px_O": null,
+   "pred_px_NC": 2805829,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 416047,
+   "pred_px_O": null,
+   "pred_px_NC": 1125017,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 132,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 186903,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 95,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4624158,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 98,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1833921,
+   "pred_px_O": null,
+   "pred_px_NC": 1967718,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 99,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3196085,
+   "pred_px_O": null,
+   "pred_px_NC": 6027117,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 100,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 10874768,
+   "pred_px_O": null,
+   "pred_px_NC": 12263737,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 101,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 6063715,
+   "pred_px_O": null,
+   "pred_px_NC": 6657698,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 13279177,
+   "pred_px_O": null,
+   "pred_px_NC": 14486244,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 109,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5519641,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 143,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 6409072,
+   "pred_px_O": null,
+   "pred_px_NC": 7477386,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 144,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7436,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 145,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4852315,
+   "pred_px_O": null,
+   "pred_px_NC": 5934610,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4325470,
+   "pred_px_O": null,
+   "pred_px_NC": 5858855,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 8519993,
+   "pred_px_O": null,
+   "pred_px_NC": 10353070,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4325470,
+   "pred_px_O": null,
+   "pred_px_NC": 5858855,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 150,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 867994,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 127,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5937994,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 116,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3349242,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 96,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 187516,
+   "pred_px_O": null,
+   "pred_px_NC": 1500567,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4956756,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "door",
+   "query": "door-stuff",
+   "class_idx": 97,
+   "class_line": [
+    "door-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 24919,
+   "pred_px_O": null,
+   "pred_px_NC": 1832383,
+   "gt_px": 7377278
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "window",
+   "query": "window-blind",
+   "class_idx": 149,
+   "class_line": [
+    "window-blind"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1061930,
+   "pred_px_O": null,
+   "pred_px_NC": 2661121,
+   "gt_px": 2179514
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "ceiling",
+   "query": "ceiling-tile",
+   "class_idx": 90,
+   "class_line": [
+    "ceiling-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 18616,
+   "pred_px_O": null,
+   "pred_px_NC": 176551,
+   "gt_px": 368790
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "shelf",
+   "query": "shelf",
+   "class_idx": 132,
+   "class_line": [
+    "shelf"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 82816,
+   "gt_px": 4453346
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "curtain",
+   "query": "curtain",
+   "class_idx": 95,
+   "class_line": [
+    "curtain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 3862781,
+   "gt_px": 6247277
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 98,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1423729,
+   "pred_px_O": null,
+   "pred_px_NC": 1618332,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 99,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 108796,
+   "pred_px_O": null,
+   "pred_px_NC": 668853,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 100,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3398880,
+   "pred_px_O": null,
+   "pred_px_NC": 4690316,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 101,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2505607,
+   "pred_px_O": null,
+   "pred_px_NC": 3142275,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 8519993,
+   "pred_px_O": null,
+   "pred_px_NC": 10353070,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 109,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 4239159,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 143,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2907578,
+   "pred_px_O": null,
+   "pred_px_NC": 3271256,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 144,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 0,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 145,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2909775,
+   "pred_px_O": null,
+   "pred_px_NC": 3465020,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1059301,
+   "pred_px_O": null,
+   "pred_px_NC": 1829527,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3433739,
+   "pred_px_O": null,
+   "pred_px_NC": 4598863,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1059301,
+   "pred_px_O": null,
+   "pred_px_NC": 1829527,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 150,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1632651,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 127,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 8032273,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 116,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2155617,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 96,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2059,
+   "pred_px_O": null,
+   "pred_px_NC": 52556,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 5528882,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 98,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 501621,
+   "pred_px_O": null,
+   "pred_px_NC": 569832,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 99,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 215,
+   "pred_px_O": null,
+   "pred_px_NC": 233066,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 100,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 924257,
+   "pred_px_O": null,
+   "pred_px_NC": 1327259,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 101,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 681937,
+   "pred_px_O": null,
+   "pred_px_NC": 975350,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3433739,
+   "pred_px_O": null,
+   "pred_px_NC": 4598863,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 109,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1348511,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-brick",
+   "class_idx": 143,
+   "class_line": [
+    "wall-brick"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3518401,
+   "pred_px_O": null,
+   "pred_px_NC": 4082850,
+   "gt_px": 5228829
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-panel",
+   "class_idx": 144,
+   "class_line": [
+    "wall-panel"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 0,
+   "gt_px": 6150332
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-stone",
+   "class_idx": 145,
+   "class_line": [
+    "wall-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 3133403,
+   "pred_px_O": null,
+   "pred_px_NC": 3883318,
+   "gt_px": 3343824
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "wall",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1256933,
+   "pred_px_O": null,
+   "pred_px_NC": 2195226,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "wood",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4152391,
+   "pred_px_O": null,
+   "pred_px_NC": 5549889,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "wood",
+   "query": "wall-wood",
+   "class_idx": 146,
+   "class_line": [
+    "wall-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1256933,
+   "pred_px_O": null,
+   "pred_px_NC": 2195226,
+   "gt_px": 10132435
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "wood",
+   "query": "wood",
+   "class_idx": 150,
+   "class_line": [
+    "wood"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1886736,
+   "gt_px": 3650272
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "river",
+   "query": "river",
+   "class_idx": 127,
+   "class_line": [
+    "river"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 8885473,
+   "gt_px": 6619303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "mountain",
+   "query": "mountain",
+   "class_idx": 116,
+   "class_line": [
+    "mountain"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 2941411,
+   "gt_px": 6252884
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "desk",
+   "query": "desk-stuff",
+   "class_idx": 96,
+   "class_line": [
+    "desk-stuff"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 2944,
+   "pred_px_O": null,
+   "pred_px_NC": 126075,
+   "gt_px": 5711049
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 7032373,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-marble",
+   "class_idx": 98,
+   "class_line": [
+    "floor-marble"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 604344,
+   "pred_px_O": null,
+   "pred_px_NC": 620084,
+   "gt_px": 1602311
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-other",
+   "class_idx": 99,
+   "class_line": [
+    "floor-other"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 304952,
+   "gt_px": 8563303
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-stone",
+   "class_idx": 100,
+   "class_line": [
+    "floor-stone"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 1540762,
+   "pred_px_O": null,
+   "pred_px_NC": 1959554,
+   "gt_px": 2677145
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-tile",
+   "class_idx": 101,
+   "class_line": [
+    "floor-tile"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 888663,
+   "pred_px_O": null,
+   "pred_px_NC": 1522921,
+   "gt_px": 9226007
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "floor",
+   "query": "floor-wood",
+   "class_idx": 102,
+   "class_line": [
+    "floor-wood"
+   ],
+   "cat": "T",
+   "pred_px_BGB": 4152391,
+   "pred_px_O": null,
+   "pred_px_NC": 5549889,
+   "gt_px": 6822431
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "bg_word": "hill",
+   "query": "hill",
+   "class_idx": 109,
+   "class_line": [
+    "hill"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": null,
+   "pred_px_NC": 1668302,
+   "gt_px": 3463230
+  },
+  {
+   "dataset": "coco_object",
+   "method": "SCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": 0,
+   "pred_px_NC": 13968551,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "coco_object",
+   "method": "NACLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": 0,
+   "pred_px_NC": 11881233,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "coco_object",
+   "method": "ResCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": 0,
+   "pred_px_NC": 13527496,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "coco_object",
+   "method": "SC-CLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": 0,
+   "pred_px_NC": 10342268,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "coco_object",
+   "method": "ProxyCLIP",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": 0,
+   "pred_px_NC": 11206525,
+   "gt_px": 13179378
+  },
+  {
+   "dataset": "coco_object",
+   "method": "Trident",
+   "bg_word": "bed",
+   "query": "bed",
+   "class_idx": 60,
+   "class_line": [
+    "bed"
+   ],
+   "cat": "E",
+   "pred_px_BGB": 0,
+   "pred_px_O": 0,
+   "pred_px_NC": 12759005,
+   "gt_px": 13179378
+  }
+ ],
+ "L2": [
+  {
+   "dataset": "obj_bg30",
+   "method": "SCLIP",
+   "C_valid": 165,
+   "dvoc": 1.541,
+   "contrib_E": 1.076,
+   "contrib_T": 0.158,
+   "contrib_rest": 0.307,
+   "E_classes": {
+    "164": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 5.39
+    },
+    "135": {
+     "line": [
+      "road"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 34.02
+    },
+    "134": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 33.63
+    },
+    "122": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 23.04
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 39.93
+    },
+    "141": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 0.24
+    },
+    "97": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 26.95
+    },
+    "114": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 5.92
+    },
+    "101": {
+     "line": [
+      "fence"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 8.36
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "NACLIP",
+   "C_valid": 165,
+   "dvoc": 1.719,
+   "contrib_E": 1.238,
+   "contrib_T": 0.23,
+   "contrib_rest": 0.251,
+   "E_classes": {
+    "164": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 8.36
+    },
+    "135": {
+     "line": [
+      "road"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 40.65
+    },
+    "134": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 32.86
+    },
+    "122": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 28.09
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 31.39
+    },
+    "141": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 0.56
+    },
+    "97": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 33.27
+    },
+    "114": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 11.31
+    },
+    "101": {
+     "line": [
+      "fence"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 17.84
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ResCLIP",
+   "C_valid": 165,
+   "dvoc": 1.876,
+   "contrib_E": 1.451,
+   "contrib_T": 0.287,
+   "contrib_rest": 0.138,
+   "E_classes": {
+    "164": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 10.29
+    },
+    "135": {
+     "line": [
+      "road"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 45.61
+    },
+    "134": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 35.91
+    },
+    "122": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 34.13
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 36.66
+    },
+    "141": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 1.13
+    },
+    "97": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 41.0
+    },
+    "114": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 12.82
+    },
+    "101": {
+     "line": [
+      "fence"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 21.91
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "SC-CLIP",
+   "C_valid": 165,
+   "dvoc": 1.829,
+   "contrib_E": 1.311,
+   "contrib_T": 0.289,
+   "contrib_rest": 0.23,
+   "E_classes": {
+    "164": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 9.67
+    },
+    "135": {
+     "line": [
+      "road"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 40.46
+    },
+    "134": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 36.5
+    },
+    "122": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 30.3
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 27.73
+    },
+    "141": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 0.49
+    },
+    "97": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 40.21
+    },
+    "114": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 13.5
+    },
+    "101": {
+     "line": [
+      "fence"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 17.37
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "ProxyCLIP",
+   "C_valid": 165,
+   "dvoc": 1.305,
+   "contrib_E": 0.816,
+   "contrib_T": 0.077,
+   "contrib_rest": 0.412,
+   "E_classes": {
+    "164": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 11.54
+    },
+    "135": {
+     "line": [
+      "road"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 26.96
+    },
+    "134": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 39.57
+    },
+    "122": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 18.6
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 31.14
+    },
+    "114": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 6.82
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg30",
+   "method": "Trident",
+   "C_valid": 165,
+   "dvoc": 1.518,
+   "contrib_E": 1.026,
+   "contrib_T": 0.077,
+   "contrib_rest": 0.415,
+   "E_classes": {
+    "164": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 14.97
+    },
+    "135": {
+     "line": [
+      "road"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 37.63
+    },
+    "134": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 42.43
+    },
+    "122": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 26.42
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 39.12
+    },
+    "114": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 8.67
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SCLIP",
+   "C_valid": 151,
+   "dvoc": 1.358,
+   "contrib_E": 0.945,
+   "contrib_T": 0.146,
+   "contrib_rest": 0.267,
+   "E_classes": {
+    "150": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 5.35
+    },
+    "127": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 33.6
+    },
+    "116": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 26.54
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 40.39
+    },
+    "132": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 0.32
+    },
+    "95": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 29.67
+    },
+    "109": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 6.82
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "NACLIP",
+   "C_valid": 151,
+   "dvoc": 1.401,
+   "contrib_E": 0.997,
+   "contrib_T": 0.189,
+   "contrib_rest": 0.215,
+   "E_classes": {
+    "150": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 8.23
+    },
+    "127": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 32.87
+    },
+    "116": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 29.79
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 31.9
+    },
+    "132": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 0.75
+    },
+    "95": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 35.58
+    },
+    "109": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 11.45
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ResCLIP",
+   "C_valid": 151,
+   "dvoc": 1.43,
+   "contrib_E": 1.145,
+   "contrib_T": 0.188,
+   "contrib_rest": 0.097,
+   "E_classes": {
+    "150": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 10.12
+    },
+    "127": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 35.83
+    },
+    "116": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 33.44
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 36.97
+    },
+    "132": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 1.49
+    },
+    "95": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 42.59
+    },
+    "109": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 12.41
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "SC-CLIP",
+   "C_valid": 151,
+   "dvoc": 1.608,
+   "contrib_E": 1.085,
+   "contrib_T": 0.302,
+   "contrib_rest": 0.22,
+   "E_classes": {
+    "150": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 9.98
+    },
+    "127": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 36.46
+    },
+    "116": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 32.72
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 28.19
+    },
+    "132": {
+     "line": [
+      "shelf"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 0.74
+    },
+    "95": {
+     "line": [
+      "curtain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 42.68
+    },
+    "109": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 13.11
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "ProxyCLIP",
+   "C_valid": 151,
+   "dvoc": 1.195,
+   "contrib_E": 0.763,
+   "contrib_T": 0.076,
+   "contrib_rest": 0.356,
+   "E_classes": {
+    "150": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 12.27
+    },
+    "127": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 39.43
+    },
+    "116": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 21.96
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 32.92
+    },
+    "109": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 8.57
+    }
+   }
+  },
+  {
+   "dataset": "obj_bg50",
+   "method": "Trident",
+   "C_valid": 151,
+   "dvoc": 1.367,
+   "contrib_E": 0.891,
+   "contrib_T": 0.079,
+   "contrib_rest": 0.397,
+   "E_classes": {
+    "150": {
+     "line": [
+      "wood"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 15.3
+    },
+    "127": {
+     "line": [
+      "river"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 42.17
+    },
+    "116": {
+     "line": [
+      "mountain"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 26.72
+    },
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 40.53
+    },
+    "109": {
+     "line": [
+      "hill"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 9.82
+    }
+   }
+  },
+  {
+   "dataset": "coco_object",
+   "method": "SCLIP",
+   "C_valid": 81,
+   "dvoc": 0.611,
+   "contrib_E": 0.585,
+   "contrib_T": 0.0,
+   "contrib_rest": 0.026,
+   "E_classes": {
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 47.37
+    }
+   }
+  },
+  {
+   "dataset": "coco_object",
+   "method": "NACLIP",
+   "C_valid": 81,
+   "dvoc": 0.565,
+   "contrib_E": 0.555,
+   "contrib_T": 0.0,
+   "contrib_rest": 0.01,
+   "E_classes": {
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 44.95
+    }
+   }
+  },
+  {
+   "dataset": "coco_object",
+   "method": "ResCLIP",
+   "C_valid": 81,
+   "dvoc": 0.589,
+   "contrib_E": 0.605,
+   "contrib_T": 0.0,
+   "contrib_rest": -0.016,
+   "E_classes": {
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 49.04
+    }
+   }
+  },
+  {
+   "dataset": "coco_object",
+   "method": "SC-CLIP",
+   "C_valid": 81,
+   "dvoc": 0.61,
+   "contrib_E": 0.594,
+   "contrib_T": 0.0,
+   "contrib_rest": 0.016,
+   "E_classes": {
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 48.14
+    }
+   }
+  },
+  {
+   "dataset": "coco_object",
+   "method": "ProxyCLIP",
+   "C_valid": 81,
+   "dvoc": 0.708,
+   "contrib_E": 0.654,
+   "contrib_T": 0.0,
+   "contrib_rest": 0.054,
+   "E_classes": {
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 52.99
+    }
+   }
+  },
+  {
+   "dataset": "coco_object",
+   "method": "Trident",
+   "C_valid": 81,
+   "dvoc": 0.724,
+   "contrib_E": 0.691,
+   "contrib_T": 0.0,
+   "contrib_rest": 0.034,
+   "E_classes": {
+    "60": {
+     "line": [
+      "bed"
+     ],
+     "IoU_BGB": 0.0,
+     "IoU_NC": 55.95
+    }
+   }
+  }
+ ],
+ "P1_n_E": 92,
+ "P1_exceptions": [],
+ "P1_pass": true
+}
